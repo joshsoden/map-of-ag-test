@@ -1,3 +1,11 @@
 <td>{{ student.firstname }}</td>
 <td>{{ student.lastname }}</td>
 <td>{{ student.subject }}</td>
+<td class="td-grade"
+    [ngClass]="{
+        'pass': student.grade > 80, 
+        'mid': student.grade >= 50 && student.grade <= 80,
+        'fail': student.grade < 50}"
+>
+    {{ student.grade }}
+</td>

@@ -1,0 +1,11 @@
+td.td-grade {
+    &.pass {
+        background: lightgreen;
+    }
+    &.mid {
+        background: rgb(210, 204, 132);
+    }
+    &.fail {
+        background: rgb(210, 132, 132);
+    }
+}
