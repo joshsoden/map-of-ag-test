@@ -1,0 +1,41 @@
+<div class="popup-background">
+    <div class="popup">
+        <h2>Student information</h2>
+        <table class="table table-striped">
+            <thead></thead>
+            <tbody>
+
+                <tr>
+                    <td>ID:</td>
+                    <td>{{ student.id }}</td>
+                </tr>
+                <tr>
+                    <td>First name:</td>
+                    <td>{{ student.firstname }}</td>
+                </tr>
+                <tr>
+                    <td>Last name:</td>
+                    <td>{{ student.lastname }}</td>
+                </tr>
+                <tr>
+                    <td>Email address:</td>
+                    <td>{{ student.email }}</td>
+                </tr>
+                <tr>
+                    <td>Subject:</td>
+                    <td>{{ student.subject }}</td>
+                </tr>
+                <tr>
+                    <td>Grade:</td>
+                    <td>{{ student.grade }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- For closing page -->
+        <button 
+            class="btn btn-primary" 
+            type="button"
+            (click)="onClosePopup()">Close popup</button>
+    </div>
+</div>

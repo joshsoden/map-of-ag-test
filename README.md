@@ -73,7 +73,7 @@ Please enter/replace your details below.
 | Email       | joshsoden@hotmail.com |
 | Date        | 2026-07-05            |
 | Start Time  | 15:35                 |
-| Finish Time |                       |
+| Finish Time | 17:34 (non-extras!)   |
 
 ### Instructions
 
@@ -103,7 +103,7 @@ platform (e.g. BitBucket, GitHub).
 
 - [x] Connect the frontend to the API at `http://127.0.0.1:8000/api/students/`.
       If the connection doesn't work out of the box, diagnose and resolve the issue.
-- [ ] Allow a student to be selected from the list to display their full details
+- [x] Allow a student to be selected from the list to display their full details
       (id, email, etc.) Ensure all fields display correctly.
 
 **Extras for if you have time:**

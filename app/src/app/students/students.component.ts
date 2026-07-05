@@ -5,10 +5,13 @@ import { StudentsService } from '../service/students.service';
 @Component({
     selector:    'app-students',
     templateUrl: './students.component.html',
+    styleUrls: ['./students.component.css'],
     standalone:  false,
 })
 export class StudentsComponent {
-    students: Student[] = [];
+    public students: Student[] = [];
+    public isDisplaying:boolean = false;
+    public selectedStudent?: Student = undefined;
 
     constructor(private studentsService: StudentsService) {}
 
@@ -22,6 +25,16 @@ export class StudentsComponent {
                 console.error(err);
             }
         });
+    }
+
+    displayStudent(id:string | number) {
+        this.isDisplaying = true;
+        this.selectedStudent = this.students.find((s) => String(s.id) === String(id));
+    }
+
+    onClosePopup() {
+        this.isDisplaying = false;
+        this.selectedStudent = undefined;
     }
 }
 
