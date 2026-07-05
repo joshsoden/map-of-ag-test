@@ -9,7 +9,7 @@ class StudentController
 
     public function index()
     {
-        return response()->json(['data' => Student::all()]);
+        return response()->json(Student::all());
     }
 
 }
