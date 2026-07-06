@@ -110,14 +110,14 @@ platform (e.g. BitBucket, GitHub).
 
 **Extras for if you have time:**
 
-- [ ] Update the API to support searching of students; allowing partial matches on first_name OR last_name
-- [ ] Add a search component to the app, above the table, allowing the students to be filtered using the new search
+- [x] Update the API to support searching of students; allowing partial matches on first_name OR last_name
+- [x] Add a search component to the app, above the table, allowing the students to be filtered using the new search
   capability
 
 **Submission Requirements**
 
-- [ ] Note any bugs you found and how you resolved them in this README
-- [ ] (optional) provide a brief screen recording (1-2 min) showing the working application
+- [x] Note any bugs you found and how you resolved them in this README
+- [x] (optional) provide a brief screen recording (1-2 min) showing the working application
 
 ---
 
