@@ -74,6 +74,8 @@ Please enter/replace your details below.
 | Date        | 2026-07-05            |
 | Start Time  | 15:35                 |
 | Finish Time | 17:34 (non-extras!)   |
+| Start Time  | 02:30 (extras).       |
+| Finish Time | 03:22 (extras).       |
 
 ### Instructions
 

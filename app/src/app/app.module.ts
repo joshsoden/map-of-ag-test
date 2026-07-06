@@ -7,6 +7,7 @@ import { AppComponent }      from './app.component';
 import { StudentsComponent } from './students/students.component';
 import { StudentComponent } from './students/student/student.component';
 import { StudentInfoComponent } from "./students/student-info/student-info.component";
+import { SearchComponent } from "./students/search/search.component";
 
 @NgModule({
     declarations: [
@@ -19,6 +20,7 @@ import { StudentInfoComponent } from "./students/student-info/student-info.compo
         BrowserModule,
         AppRoutingModule,
         HttpClientModule,
+        SearchComponent,
     ],
     providers:    [],
     bootstrap:    [ AppComponent ],

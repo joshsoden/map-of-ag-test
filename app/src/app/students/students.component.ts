@@ -27,6 +27,18 @@ export class StudentsComponent {
         });
     }
 
+    onSearch(searchTerm: string): void {
+        this.studentsService.searchStudents(searchTerm).subscribe({
+            next: (data) => {
+                this.students = data;
+            },
+            error: (err) => {
+                console.error("Failed to search for students");
+                console.error(err);
+            }
+        })
+    }
+
     displayStudent(id:string | number) {
         this.isDisplaying = true;
         this.selectedStudent = this.students.find((s) => String(s.id) === String(id));
